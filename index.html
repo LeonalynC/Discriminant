@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discriminant of a Quadratic Equation</title>
+    <style>
+        body {
+            font-size: 18px; 
+        }
+        label {
+            font-size: 20px;
+            margin-bottom: 10px;
+            display: inline-block;
+        }
+        input[type="number"], input[type="submit"] {
+            font-size: 18px;
+            padding: 5px;
+            margin-top: 5px;
+        }
+        input[type="submit"] {
+            cursor: pointer;
+        }
+        form {
+            max-width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Discriminant of a Quadratic Equation</h1>
+    <form action="discriminant.php" method="POST">
+        <label for="a">A</label>
+        <input type="number" id="a" name="a" required placeholder="Value of a">
+        <br><br>
+        <label for="b">B</label>
+        <input type="number" id="b" name="b" required placeholder="Value of b">
+        <br><br>
+        <label for="c">C</label>
+        <input type="number" id="c" name="c" required placeholder="Value of c">
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
